@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "node": "^18.4.0",
+    "nodemon": "^2.0.18",
+    "request": "^2.88.2"
+  },
+  "name": "auweather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujjwalpathaak/AUWeather.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ujjwalpathaak/AUWeather/issues"
+  },
+  "homepage": "https://github.com/ujjwalpathaak/AUWeather#readme",
+  "description": ""
+}
