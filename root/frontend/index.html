@@ -5,14 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather.io</title>
-    <link rel="stylesheet" href="./css/weather.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="logo">
+<div class="main">
+
+    <div class="header">
         <h1>Wea<span>ther</span>.io</h1>
     </div>
+    <div class="searchSection">
+        <form>
+           <input id ="searchBar" type="text" placeholder="Search..">
+           <button id= "searchButton" type="submit">
+            <img id= "search" src="./assets/image/searchicon.png">
+           </button>
+        </form>
+    </div>
+    <div class="resultSection"></div>
+    <div class="newsSection"></div>
+</div>
 </body>
 </html>
